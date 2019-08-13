@@ -18,7 +18,7 @@
 header {
 	width:100%;
 	overflow: hidden;
-	background:#070D59;
+	background:rgba(7,13,89,.8);
 	margin-bottom:20px;
 }
 
@@ -176,7 +176,7 @@ footer {
 	padding: 25px;
 	color: #fff;
 	width: 100%;
-	background: #070D59;
+	background: rgba(7,13,89,.8);
 	border-top: 3px solid #fff;
 }
 .negrita{

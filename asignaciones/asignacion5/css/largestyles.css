@@ -1,0 +1,19 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face{
+    font-family: SourceSansPro-Light;
+    src:url(../css/fuentes/SourceSansPro-Light.ttf)
+}
+@font-face{
+    font-family: SourceSansPro-Black;
+    src: url(../css/fuentes/SourceSansPro-Black.ttf)
+}
+header{
+    width: 100%;
+}
