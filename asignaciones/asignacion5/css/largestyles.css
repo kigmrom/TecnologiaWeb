@@ -6,14 +6,6 @@
 	box-sizing: border-box;
 }
 
-* {
-	padding:0;
-	margin:0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 @font-face{
     font-family: SourceSansPro-Light;
     src:url(../css/fuentes/SourceSansPro-Light.ttf)
@@ -136,8 +128,6 @@ header nav a:hover {
 /* Main */
 body {
 	background-image: url(../images/fondo4.jpg);
-	/* background-repeat:no-repeat;
-	background-size:cover; */
 
 	background-attachment: fixed;
     font-family: SourceSansPro-Light;
