@@ -14,7 +14,7 @@
     font-family: SourceSansPro-Black;
     src: url(../css/fuentes/SourceSansPro-Black.ttf)
 }
-/* Header
+/* Header */
 header {
 	width:100%;
 	overflow: hidden;
@@ -124,12 +124,10 @@ header nav a:hover {
 	.header2 nav {
 		line-height:50px;
 	}
-} */
+}
 /* Main */
 body {
 	background-image: url(../images/fondo4.jpg);
-	/* background-repeat:no-repeat;
-	background-size:cover; */
 
 	background-attachment: fixed;
     font-family: SourceSansPro-Light;
