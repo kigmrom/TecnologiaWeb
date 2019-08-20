@@ -34,8 +34,6 @@ header nav ul {
 
 header nav ul li {
 	display:inline-block;
-	/*La razon por la que no usamos floar en vez de inline-block es
-	porque no vamos a poder usar overflows en el header nav ul*/
 	position: relative;
 }
 
