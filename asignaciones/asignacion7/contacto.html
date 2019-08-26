@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Llajtatour</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/largestyles.css">
+    <link rel="stylesheet" href="css/mediumstyles.css">
+    <link rel="stylesheet" href="css/smallstyles.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/header2.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!--Cabecera-->
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                Llajtatour
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><span class="icon-home"></span> Inicio</a></li>
+                    <li><a href="#"><span class="icon-newspaper"></span> Provincias</a></li>
+                    <li><a href="#"><span class="icon-earth"></span> Recomendaciones</a></li>
+                    <li><a href="gale.html"><span class="icon-camera"></span> Galeria</a></li>
+                    <li><a href="#"><span class="icon-question"></span> Acerca De</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Principal-->
+    <main class="container">
+        <article>
+            <h2>Inicio</h2>
+            <hr/>
+            <form>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required><br>
+                <label for="nombre">Apellido:</label>
+                <input type="text" id="nombre" required><br>
+                <p>Sexo:<input type="radio" name="sexo" value="1">F
+                    <input type="radio" name="sexo" value="2">M</p>
+                <p>Correo:</p>
+                <label for="correo"></label>
+                <input type="email" id="correo" required><br>
+                <br><label for="edad">Edad:</label>
+                <input type="numbre" id="edad"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required><br>
+                <p>Seleccione su País de Origen:</p>
+                <select name="pais">
+                    <option value="1">Argentina</option>
+                    <option value="2">España</option>
+                    <option value="3">Meximo</option>
+                    <option value="4">Guatemala</option>
+                    <option value="5">Honduras</option>
+                    <option value="6">El Salvador</option>
+                    <option value="7">Venezuela</option>
+                    <option value="8">Colombia</option>
+                    <option value="9">Cuba</option>
+                    <option value="10">Bolivia</option>
+                    <option value="11">Peru</option>
+                </select>
+                <p>Seleccione sus pasatiempos:</p>
+    
+                <input type="checkbox" name="videojuegos">Jugar VideoJuegos
+                <br>
+                <input type="checkbox" name="musica">Escuchar Musica
+                <br>
+                <input type="checkbox" name="cine">Salir al Cine
+                <br>
+                <input type="checkbox" name="deportes">Realizar Deportes
+                <br>
+                <input type="submit" value="Enviar"><br>
+    
+    
+            </form>
+        </article>
+    </main>    
+    <!--Pie de pagina-->
+    <footer>
+        <div class="copy">
+            
+            Copyright &copy;
+            <script>
+                document.write(new Date().getDate()+ "/" +new Date().getMonth()+ "/" +new Date().getFullYear());
+            </script> <p>Todos los derechos de edición <span class="icon-home" aria-hidden="true"></span> por</p> <p class="negrita">Llajtatour | Cochabamba</p>
+            
+        </div>
+    </footer>
+</body>
+</html>

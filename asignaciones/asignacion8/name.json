@@ -1,0 +1,35 @@
+{
+    "squadName" : "My Hero Academia",
+    "homeTown" : "Japon",
+    "formed" : 2014,
+    "secretBase" : "Super Torre",
+    "active" : true,
+    "members" : [
+      {
+        "name" : "All Might",
+        "age" : 46,
+        "secretIdentity" : "Toshinori Yagi",
+        "powers" : [
+          "One For All",
+          "Ninguna(Actualmente)"
+        ]
+      },
+      {
+        "name" : "Deku",
+        "age" : 16,
+        "secretIdentity" : "Izuku Midoriya",
+        "powers" : [
+          "Ninguna(Anteriormente)",
+          "One For All"
+        ]
+      },
+      {
+        "name" : "All For One",
+        "age" : 100,
+        "secretIdentity" : "Desconocida",
+        "powers" : [
+          "All For One"
+        ]
+      }
+    ]
+  }
