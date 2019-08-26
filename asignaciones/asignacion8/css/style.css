@@ -13,6 +13,8 @@ body {
 
 h1, h2 {
   font-family:  cursive;
+  color: red;
+  font-weight: bold;
 }
 
 /* header styles */
