@@ -3,7 +3,7 @@ var OpenPopUp = document.getElementById("open-popup"),
     popup = document.getElementById("popup"),
     closePopup = document.getElementById("close-popup");
 var information = document.querySelector('section');
-var requestURL = 'https://argotepazramiro.github.io/Repositorio/Llajtatour/json/recomendados.json';
+var requestURL = 'https://kigmrom.github.io/TecnologiaWeb/asignaciones/Final/JSON/recomendados.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';

@@ -39,22 +39,14 @@
 						<span class="icon-camera"></span>Galeria<span class="caret icon-circle-down"></span>
 					</a>
 					<ul class="children">
-						<li><a href="#">Fotografias <span class="icon-dot"></span></a></li>
-						<li><a href="#">Videos <span class="icon-dot"></span></a></li>
+						<li><a href="g_fotos.html">Fotografias <span class="icon-dot"></span></a></li>
 					</ul>
 				</li>
                 <li><a href="inicio.html"><span class="icon-newspaper"></span>Recomendaciones</a></li>
-                <li class="submenu">
-                    <a href="#">
-                        <span class="icon-question"></span>Acerca de<span class="caret icon-circle-down"></span>
-                    </a>
-                    <ul class="children">
-                        <li><a href="#">Informacion<span class="icon-dot"></span></a></li>
-                        <li><a href="#">Contactanos<span class="icon-dot"></span></a></li>
-                    </ul>
-                </li>
+                <li><a href="inicio.html"><span class="icon-question"></span>Acerca De</a></li>
 			</ul>
 		</nav>
+	</header>
 	</header>
     <!--Principal-->
     <main class="container">
@@ -75,6 +67,12 @@
                     Dicho termino data de la época incaica que significa que era un lugar predilecto, el área de acción, el santuario de los dioses locales).
                     Las tierras mas fértiles se encuentran en esta región de Bolivia, hermosos valles dan una gran variedad de frutos y verduras.
                     La Ciudad de Cochabamba.- es el corazón de Bolivia, está enclavada en un valle de tierras fértiles en la zona central del país, asentándose al pie de la Cordillera Tunari.</p>
+                    
+
+            <p class="negrita">La temperatura actual en Cochabamba, Bolivia es <span id="cc-temp"></span>&deg; C <img id="cc-img"></p>
+
+    
+
         </article>
     </main>
     <!--Pie de pagina-->
@@ -86,6 +84,7 @@
                 document.write(new Date().getDate()+ "/" +(new Date().getMonth()+1)+ "/" +new Date().getFullYear());
             </script> <p>Todos los derechos de edición <span class="icon-home" aria-hidden="true"></span> por</p> <p class="negrita">Llajtatour | Cochabamba</p>
         </div>
+        <script src="js/weatherapi.js"></script>
     </footer>
 </body>
 </html>
