@@ -61,6 +61,58 @@
             <h1>Contactanos</h1>
             <hr>
             <p>Para mas Informacion llamar al numero: 00000000</p>
+            <article>
+                <form method="get" action="gracias.html">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" pattern="[A-Za-z ].{5,}" required><br>
+                    <br><label for="correo">Correo Electronico:</label>
+                    <input type="email" id="correo" placeholder="example@company.com" required><br>
+                    <br><label for="telefono">Numero de Telefono:</label>
+                    <input type="tel" id="telefono"><br>
+                    <br><label for="cpostal">Codigo Postal:</label>
+                    <input type="number" required><br>
+                    <br><label>Tipo de Usuario:
+                        <select name="TypeUser">
+                            <option value="">Seleccione una Opcion</option>
+                            <option value="TuristaNacional">Turista Nacional</option>
+                            <option value="TuristaExtranjero">Turista Extranjero</option>
+                            <option value="ViajeroFrecuente">Viajero Frecuente</option>
+                            <option value="PrimerViaje">Primer Viaje</option>
+                        </select>
+                    </label><br>
+                    <br><label for="fecha">Fecha:</label>
+                    <input type="date"><br>
+                    <br>
+
+                    <label>Lugar del que se requiere mas informacion
+                        <select name="place">
+                            <option value="">Seleccione un Lugar</option>
+                            <option value="Corani">Corani</option>
+                            <option value="LaFuenteDelAmor">La Fuente del Amor</option>
+                            <option value="CavernasDelRepechon">Cavernas del Repechon</option>
+                            <option value="LaAngostura">La Angostura</option>
+                            <option value="ConventoSanJose">Convento de San Jose</option>
+                            <option value="Incas">Incallajta, Inca Rakay e Incachaca</option>
+                            <option value="Tipnis">El Tipnis</option>
+                            <option value="Misicuni">Misicuni</option>
+                            <option value="YungaPampa">Yunga Pampa</option>
+                            <option value="SanIsidro">Parque Ecoturistico San Isidro</option>
+                            <option value="Cristo">El Cristo de la Concordia</option>
+                            <option value="ParqueTunari">Parque Nacional Tunari</option>
+                        </select>
+                    </label><br>
+
+                    <fieldset>
+                        <legend>Sexo: <em> (Seleccione uno) </em></legend>
+                        <label><input type="radio" name="sexo" value="F">Femenino</label>
+                        <label><input type="radio" name="sexo" value="M">Masculino</label>
+                    </fieldset>
+                    <br><label>Informacion Adicional: <textarea name="aditional" cols="30" rows="10"></textarea></label>
+
+                    <br><input class="Send" type="submit" value="Send"></a>
+
+                </form>
+            </article>
         </Article>
     </main>
     <!--Pie de pagina-->
